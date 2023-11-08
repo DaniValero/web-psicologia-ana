@@ -1,0 +1,13 @@
+.servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+        width: 20vw;
+        height: 20vh;
+        background-color: chocolate;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

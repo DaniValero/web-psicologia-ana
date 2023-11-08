@@ -1,0 +1,41 @@
+.navbar {
+    background-color: rgb(97, 87, 230);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-around;
+    
+    cursor: pointer;
+
+    p {
+        margin: 20px;
+        color: white;
+    }
+}
+
+
+.footer {
+    max-height: 30vh;
+    width: 100vw;
+    background-color: rgb(127, 157, 255);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.logo-junta {
+    max-width: 20vw;
+}
+
+.footer-list {
+    margin-top: 20px;   
+}
