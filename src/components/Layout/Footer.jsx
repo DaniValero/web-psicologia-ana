@@ -16,15 +16,15 @@ function Footer() {
                 <p><i className="pi pi-phone"></i> 722 204 465</p>
             </div>
 
-            <div>
+            <div className="colegiado">
                 <img src={juntaAndalucia} alt="Logo Junta de Andalucía" className="logo-junta" />
                 <p>Número de colegiado: AN1358</p>
             </div>
             <div className="footer-list">
-                <p><Link>Servicios</Link></p>
-                <p><Link>Preguntas frecuentes</Link></p>
-                <p><Link>Pedir cita</Link></p>
-                <p><Link>Terminos y condiciones</Link></p>
+                <a><Link>Servicios</Link></a>
+                <a><Link>Preguntas frecuentes</Link></a>
+                <a><Link>Pedir cita</Link></a>
+                <a><Link>Terminos y condiciones</Link></a>
 
             </div>
         </div>

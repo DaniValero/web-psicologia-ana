@@ -1,9 +1,14 @@
 .navbar {
-    background-color: rgb(97, 87, 230);
+    background-color: #783F8E;
     height: 10vh;
-    width: 100vw;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    a {
+        margin-left: 3vw;
+        color: white;
+        text-decoration: none;
+    }
 }
 
 .navbar-links {
@@ -12,24 +17,33 @@
     
     cursor: pointer;
 
-    p {
-        margin: 20px;
+    a {
+        margin-left: 3vw;
         color: white;
+        text-decoration: none;
     }
 }
 
 
 .footer {
     max-height: 30vh;
-    width: 100vw;
-    background-color: rgb(127, 157, 255);
-    position: absolute;
-    bottom: 0;
+    background-color: #783F8E;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0 5vw;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.colegiado {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo-junta {
@@ -37,5 +51,14 @@
 }
 
 .footer-list {
-    margin-top: 20px;   
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;   
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin-bottom: 3vh;
+    }
 }

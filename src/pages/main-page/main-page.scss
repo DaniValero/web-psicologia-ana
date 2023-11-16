@@ -9,3 +9,40 @@
     max-width: 50vw;
     
 }
+
+.citas {
+    display: flex;
+    justify-content: center;
+
+    button {
+        margin: 20px;
+    }
+}
+
+.valores {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+
+    p {
+        max-width: 50vw;
+    }
+}
+
+.reviews-section {
+    margin-top: 10vh;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30vh;
+}
+
+.reviews-cases {
+    display: flex;
+    justify-content: space-around;
+    p {
+            max-width: 20vw;
+    
+        }
+}
